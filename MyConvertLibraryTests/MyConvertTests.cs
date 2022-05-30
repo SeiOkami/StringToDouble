@@ -6,7 +6,7 @@ namespace MyConvertLibraryTests
     public class MyConvertTests
     {
         [TestMethod]
-        public void StringToDouble_1000Random()
+        public void StringToDouble_100000Random()
         {
             double exp;
             string prm;
@@ -15,12 +15,11 @@ namespace MyConvertLibraryTests
             Random rnd = new Random();
             for (int i = 0; i < 100000; i++)
             {
-                exp = rnd.NextDouble();
-                prm = exp.ToString("F13");
-                var exp1 = Convert.ToDouble(prm);
+                prm = rnd.NextDouble().ToString("F13");
+                exp = Convert.ToDouble(prm);
                 act = MyConvert.StringToDouble(prm);
 
-                Assert.AreEqual(exp1, act);
+                Assert.AreEqual(exp, act);
             }
         }
 
