@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConvertLibrary", "MyConvertLibrary\MyConvertLibrary.csproj", "{2A8561A3-0F7F-42A4-AB4D-B004B513422A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConvertLibrary.Tests", "MyConvertLibraryTests\MyConvertLibrary.Tests.csproj", "{FDE43B79-0FF0-4D29-9B87-062418A9AAD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A8561A3-0F7F-42A4-AB4D-B004B513422A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A8561A3-0F7F-42A4-AB4D-B004B513422A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A8561A3-0F7F-42A4-AB4D-B004B513422A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A8561A3-0F7F-42A4-AB4D-B004B513422A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE43B79-0FF0-4D29-9B87-062418A9AAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE43B79-0FF0-4D29-9B87-062418A9AAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE43B79-0FF0-4D29-9B87-062418A9AAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE43B79-0FF0-4D29-9B87-062418A9AAD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6DE3922-17EF-4A66-B73E-86AE5FFB5565}
+	EndGlobalSection
+EndGlobal
